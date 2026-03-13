@@ -4,7 +4,6 @@ export interface Product {
   tagline: string;
   description: string;
   image: string;
-  detailImage: string;
   ingredients: { name: string; benefit: string }[];
   benefits: string[];
   usage: string;
@@ -18,7 +17,7 @@ export const products: Product[] = [
     tagline: "Restores & Strengthens Skin Barrier",
     description: "Cerablend Intense Moisturizing Lotion is a non-comedogenic, ceramide-enriched formula designed for deep hydration and skin barrier repair. Suitable for all skin types including dry, dehydrated, rough, flaky, and sensitive skin.",
     image: "/images/products/cerablend-box.jpg",
-    detailImage: "/images/products/cerablend.jpg",
+    
     ingredients: [
       { name: "Cocoa Butter", benefit: "Deeply nourishes & improves skin softness" },
       { name: "Aloe Vera Extract", benefit: "Calms and hydrates sensitive skin" },
@@ -45,7 +44,7 @@ export const products: Product[] = [
     tagline: "Powerful Antifungal with Targeted Action",
     description: "LuliSOFT Soap contains Luliconazole 1% w/w with Aloe Vera. It inhibits fungal growth through enzyme inhibition, ergosterol reduction, and membrane damage, effectively treating common ringworm infections.",
     image: "/images/products/lulisoft-soap.jpg",
-    detailImage: "/images/products/lulisoft-info.jpg",
+  
     ingredients: [
       { name: "Luliconazole 1% w/w", benefit: "Inhibits fungal 14-α demethylase needed for ergosterol synthesis" },
       { name: "Aloe Vera", benefit: "Soothes and moisturizes skin during treatment" },
@@ -65,7 +64,7 @@ export const products: Product[] = [
     tagline: "Soothes Scalp – Strengthens Hair",
     description: "Lulidruff Anti-Dandruff Shampoo with Conditioner contains Luliconazole, Salicylic Acid & Zinc Pyrithione. It soothes itchy scalp while reducing flakes, scaling & irritation. Suitable for all hair types.",
     image: "/images/products/lulidruff-shampoo.jpg",
-    detailImage: "/images/products/lulidruff-shampoo-box.jpg",
+    
     ingredients: [
       { name: "Luliconazole", benefit: "Controls dandruff and fungal growth" },
       { name: "Salicylic Acid", benefit: "Reduces scaling and unclogs hair follicles" },
@@ -89,7 +88,7 @@ export const products: Product[] = [
     tagline: "Brightens & Revitalizes Faded Skin",
     description: "Melafade is an advanced multi-ingredient pigment corrector face serum containing Thiamidol, Alpha Arbutin, Tranexamic Acid, and Liposomal Azelaic Acid. Targets dark spots, melasma, and uneven skin tone.",
     image: "/images/products/melafade-box.jpg",
-    detailImage: "/images/products/melafade-info.jpg",
+    
     ingredients: [
       { name: "0.1% Thiamidol", benefit: "Inhibits tyrosinase enzyme, reducing melanin formation and fading dark spots" },
       { name: "2% Alpha Arbutin", benefit: "Inhibits tyrosinase, brightens skin and evens out complexion" },
@@ -111,7 +110,7 @@ export const products: Product[] = [
     tagline: "Multi-Action Solution for Complete Hair Care",
     description: "Minox-F Solution is a multi-action hair growth booster fortified with Minoxidil, Finasteride, Capixyl, and Anagain. Alcohol-free lipid solution for hair nourishment with deep transdermal delivery.",
     image: "/images/products/minox-f-box.jpg",
-    detailImage: "/images/products/minox-f-info.jpg",
+    
     ingredients: [
       { name: "Minoxidil", benefit: "Opens potassium channels, increases blood flow to hair follicles, prolongs anagen phase" },
       { name: "Finasteride", benefit: "Inhibits 5-alpha reductase enzyme, reduces DHT conversion" },
@@ -134,7 +133,7 @@ export const products: Product[] = [
     tagline: "Dual Action: Antiparasitic + Antiseptic",
     description: "Permisoft Soap contains Permethrin 1.0% w/w & Cetrimide 0.5% w/w. It disrupts parasite nerve sodium channels causing paralysis & death, while Cetrimide damages microbial cell membranes for antiseptic effect.",
     image: "/images/products/permisoft-box.jpg",
-    detailImage: "/images/products/permisoft-info.jpg",
+    
     ingredients: [
       { name: "Permethrin 1.0% w/w", benefit: "Disrupts parasite nerve sodium channels – paralysis & death of parasites" },
       { name: "Cetrimide 0.5% w/w", benefit: "Damages microbial cell membranes – antiseptic effect" },
@@ -154,7 +153,7 @@ export const products: Product[] = [
     tagline: "Gentle Cleansing – Deep Hydration",
     description: "Seramoist is a dermatologist-friendly moisturising soap formulated with Palm Oil, Coconut Oil, Kokum Butter, Aloe Vera Gel, and Glycerin. Suitable for dry to very dry skin and sensitive skin.",
     image: "/images/products/seramoist-box.jpg",
-    detailImage: "/images/products/seramoist-info.jpg",
+    
     ingredients: [
       { name: "Palm Oil", benefit: "Bar hardness & stability" },
       { name: "Coconut Oil", benefit: "Effective cleansing with rich lather" },
@@ -178,7 +177,7 @@ export const products: Product[] = [
     tagline: "Dual Pathway Anti-Allergic Control",
     description: "Serecet-LM contains Montelukast Sodium 10mg & Levocetirizine HCl 5mg. Provides dual control of histamine- and leukotriene-mediated allergic skin reactions with day-night allergy protection.",
     image: "/images/products/serecet-lm-box.jpg",
-    detailImage: "/images/products/serecet-lm-info.jpg",
+    
     ingredients: [
       { name: "Montelukast Sodium 10mg", benefit: "Blocks leukotrienes to reduce allergic inflammation & itching" },
       { name: "Levocetirizine HCl 5mg", benefit: "Blocks H1 histamine receptors to relieve itching, redness & wheals" },
@@ -201,7 +200,7 @@ export const products: Product[] = [
     tagline: "Follicle-Activating Hair Fall Control",
     description: "Tricho Serene AH is a sulphate & paraben free anti-hairloss shampoo enriched with Redensyl, Procapil, Biotin, and Caffeine. Prevents hair loss, strengthens & rejuvenates hair for all hair types.",
     image: "/images/products/tricho-shampoo-box.jpg",
-    detailImage: "/images/products/tricho-shampoo.jpg",
+    
     ingredients: [
       { name: "Redensyl", benefit: "Activates dormant hair follicles to promote new hair growth" },
       { name: "Procapil", benefit: "Improves scalp circulation & reduces follicle aging" },
@@ -223,7 +222,7 @@ export const products: Product[] = [
     tagline: "Improves Hair Density",
     description: "Tricho Serene Advanced Hair Growth Serum is enriched with 7 powerful active ingredients including Redensyl 3%, Anagain 4%, Capixyl 5%, Procapil 3%, Baicapil 3%, Caffeine 1%, and Rosemary 0.3%.",
     image: "/images/products/tricho-serum-box.jpg",
-    detailImage: "/images/products/tricho-serum.jpg",
+    
     ingredients: [
       { name: "Redensyl 3%", benefit: "Activates dormant hair follicle stem cells" },
       { name: "Anagain 4%", benefit: "Reactivates anagen phase with 78% rise in growing hair" },
@@ -251,7 +250,7 @@ export const products: Product[] = [
     tagline: "Advanced Defense Against Photo-Aging & Heat Damage",
     description: "UV-Serene is an SPF 50+ PA++++ invisible aqua gel sunscreen with broad-spectrum UVA/UVB/IR and Blue Light protection. Enriched with brightening complex, oil-free hydration, water/sweat resistant, and non-comedogenic.",
     image: "/images/products/uv-serene-box.jpg",
-    detailImage: "/images/products/uv-serene-info.jpg",
+    
     ingredients: [
       { name: "Tinosorb S", benefit: "Photostable UVA I & II protection" },
       { name: "Tinosorb M", benefit: "Broad-spectrum UVA/UVB defense" },

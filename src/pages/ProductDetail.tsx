@@ -39,7 +39,7 @@ const ProductDetail = () => {
             {/* Image */}
             <div className="rounded-2xl overflow-hidden shadow-lg bg-muted">
               <img
-                src={product.detailImage}
+                src={product.image}
                 alt={product.name}
                 className="w-full h-auto object-contain"
               />
@@ -122,11 +122,6 @@ const ProductDetail = () => {
       <section className="section-padding bg-card">
         <div className="container mx-auto max-w-3xl">
           <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src={product.image}
-              alt={`${product.name} packaging`}
-              className="w-full h-auto object-contain"
-            />
           </div>
         </div>
       </section>
