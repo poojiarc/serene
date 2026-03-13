@@ -37,7 +37,7 @@ const Index = () => {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/images/about-dermatology.jpg"
+                src="/images/products/about pic.avif"
                 alt="Dermatology expertise"
                 className="w-full h-full object-cover"
               />

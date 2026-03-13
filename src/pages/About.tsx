@@ -21,7 +21,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/images/about-dermatology.jpg"
+                src="/images/products/about pic.avif"
                 alt="Dermatology consultation"
                 className="w-full h-full object-cover"
               />

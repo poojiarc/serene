@@ -19,8 +19,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src="/images/logo.jpg" alt="Serene Derma logo" className="h-10 w-auto" />
           <div className="flex flex-col leading-tight">
-            <span className="font-heading text-lg font-bold text-primary">Serene</span>
-            <span className="font-heading text-xs font-semibold text-secondary tracking-wider">DERMA</span>
+            <span className="font-heading text-lg font-bold text-primary">Serene Derma Pharmaceutical</span>
           </div>
         </Link>
 
