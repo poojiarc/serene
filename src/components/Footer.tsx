@@ -75,9 +75,13 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-6 flex flex-col items-center gap-3">
-          <p className="text-sm text-secondary-foreground/60">
-            © {new Date().getFullYear()} Serene Derma Pharmaceuticals. All rights reserved.
-          </p>
+          <div className="flex items-center gap-2 mb-2">
+            <img src="/images/logo.jpg" alt="Serene Derma logo" className="h-8 w-auto brightness-200" />
+            <div className="flex flex-col leading-tight">
+              <span className="font-heading text-sm font-bold text-secondary-foreground">Serene</span>
+              <span className="font-heading text-[10px] font-semibold text-secondary-foreground/70 tracking-wider">DERMA</span>
+            </div>
+          </div>
           <div className="flex justify-center items-center gap-1 text-sm text-secondary-foreground/80">
             Made with <Heart className="inline h-4 w-4 text-red-500 mx-1" /> by
             <a
@@ -94,6 +98,9 @@ const Footer = () => {
               StaffArc
             </a>
           </div>
+          <p className="text-sm text-secondary-foreground/60">
+            © {new Date().getFullYear()} Serene Derma Pharmaceuticals. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
