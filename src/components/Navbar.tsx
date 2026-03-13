@@ -17,8 +17,11 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md shadow-sm border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-heading text-xl font-bold text-primary">Serene</span>
-          <span className="font-heading text-xl font-semibold text-secondary">Derma</span>
+          <img src="/images/logo.jpg" alt="Serene Derma logo" className="h-10 w-auto" />
+          <div className="flex flex-col leading-tight">
+            <span className="font-heading text-lg font-bold text-primary">Serene</span>
+            <span className="font-heading text-xs font-semibold text-secondary tracking-wider">DERMA</span>
+          </div>
         </Link>
 
         {/* Desktop */}
